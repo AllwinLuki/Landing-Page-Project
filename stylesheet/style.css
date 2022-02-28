@@ -1,0 +1,153 @@
+*{
+    font-family: roboto, 'Times New Roman', Times, serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    background-color:#3882f6;
+    color: white;
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+button:hover{
+    background-color: lightblue;
+    size: 110%;
+}
+
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    background-color: #1F2937;
+    color: white;
+}
+.header div{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+#hero{
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    padding: 30px;
+    gap: 50px;
+}
+
+#hero img{
+    width: 200px;
+    height: 150px;
+}
+
+#hero h1{
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.hero-container{
+    flex-shrink: 1;
+}
+
+#hero p{
+    font-size: 18px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.main-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+    padding-top: 30px;
+}
+
+.main-page h1{
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+}
+
+.quote{
+    background-color: #E5E7EB;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-end;
+   padding-right: 130px;
+   padding: 100px;
+}
+
+.the-quote{
+    font-size: 36px;
+    font-style: italic;
+}
+
+.signup{
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 50%;
+    background-color: #3882f6;
+    padding: 30px 60px 30px 60px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.footer{
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+#hero, .signup{
+    color: white;
+}
+
+ul{
+    display: flex;
+    gap: 10px;
+}
+
+li{
+    list-style: none;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+.illustration img{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+.illustration{
+    width: 100px;
+    height: 100px;
+}
+
+.call-to-action{
+font-size: 30px;
+font-weight: bold;
+
+}
